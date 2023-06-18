@@ -6,7 +6,7 @@ using UnscriptedLogic.Currency;
 
 public class ShipMovement : PlayerSystem
 {
-    [SerializeField] private float initializedSpeed = 10f;
+    [SerializeField] private float initializedSpeed = 150f;
 
     private bool canMove;
     private CurrencyHandler movementHandler;
